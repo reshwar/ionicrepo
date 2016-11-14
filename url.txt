@@ -1,0 +1,12 @@
+http://ionicframework.com/docs/components/#grid-responsive
+
+
+http://stackoverflow.com/questions/38470941/how-to-has-responsive-grid-layout-in-ionic-2
+
+http://www.joshmorony.com/an-in-depth-look-at-the-grid-system-in-ionic-2/
+
+
+http://ionicframework.com/docs/v2/components/#floating-labels
+
+
+https://forum.ionicframework.com/t/how-to-make-responsive-grid-in-ionic-2/48273/3
