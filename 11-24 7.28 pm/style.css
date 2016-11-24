@@ -1,0 +1,63 @@
+
+/*#content-container{
+	 overflow:hidden;
+}*/
+
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+#map{
+	 height: 390px;
+
+	 
+}
+
+
+#content-container {
+  display: flex;
+  flex-flow: column;
+  height: 100%;
+}
+
+/*#content-container {
+  display: flex;
+  flex-flow: column;
+  height: 100%;
+}*/
+/*#start{
+	height: 30px;
+}
+#end{
+	height: 30px;
+}*/
+
+
+/*a[href^="http://maps.google.com/maps"]{display:none !important}
+
+.gmnoprint a, .gmnoprint span {
+    display:none;
+}
+.gmnoprint div {
+    background:none !important;
+}*/
+
+
+
+/*  
+**To remove google logo and copyright images
+*/
+
+.gmnoprint:not(.gm-bundled-control) {
+    display: none;
+}
+
+.gm-bundled-control .gmnoprint {
+    display: block;
+}
+
+a[href^="https://maps.google.com/maps"]{display:none !important}
+a[href^="https://www.google.com/maps"]{display:none !important}
+

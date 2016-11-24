@@ -1,0 +1,89 @@
+<ion-header>
+  <ion-navbar>
+
+    <ion-title>
+      Service Tracker App
+
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+ 
+
+<ion-content scroll="false"> 
+
+    <section class="examle03FlexContainer border01">
+        <div class="example03FlexItems">
+          
+                  <ion-item>
+                    <ion-label >Source</ion-label>
+                    <ion-input id="start"  data-onload ='getSourceInputElement(this)' value="K P H B Phase 1, Hyderabad, Telangana, India"></ion-input>
+                  </ion-item>
+
+                  <ion-item>
+                     <ion-label  >Destination</ion-label>
+                   <ion-input type="text" id="end" data-onload ='getDestinationInputElement(this)' value="K P H B Phase 6, Hyderabad, Telangana, India"> </ion-input>
+                  </ion-item>
+                  <button ion-button onclick="getdir()">Start Tracking</button>
+                  <div id="map"> </div> 
+        </div>
+     
+    </section>  
+
+</ion-content>               
+               <!--<ion-item>
+
+                  <ion-input id="start" autocomplete="true" value="KPHB Phase lll Bus Stop, East Seva Lane, KPHB Phase III, KPHB Phase 2, Kukatpally, Hyderabad, Telangana"  class="col" onchange='geolocate("start")' type="text" placeholder="source"></ion-input>
+
+                  
+               </ion-item> 
+
+               <ion-item>
+
+                  <ion-input type="text" value="Uppal,Hyderabad,Telangana,India"> </ion-input>
+                  
+
+                  
+               </ion-item>-->
+
+
+
+           
+
+          <!-- <input id="start"  value=""   onkeydown='geolocate("start")' type="text" placeholder="source">
+
+               <input id="end" onFocus='geolocate("end")' value="Uppal,Hyderabad,Telangana,India" type="text" placeholder="destination">-->
+
+              
+            
+                   
+             
+
+
+       <!-- <button ion-button onclick="startNavigation()">
+                      Start Navigation
+                    </button>-->
+                    <!--<button class="button button-positive" onclick="getdir()" color="primary">
+                      Find Direction
+                    </button>-->
+          
+          <!--<ion-list>
+
+                <ion-item>
+                  <ion-label floating>Username</ion-label>
+                  <input type="text" id="start" onchange='geolocate("start")'>
+                </ion-item>
+
+                <ion-item>
+                  <ion-label floating>Password</ion-label>
+                  <input type="text" id="end" onFocus='geolocate("end")' value="Uppal,Hyderabad,Telangana,India">
+                </ion-item>
+
+
+                <button class="button ion-button" onclick="getdir()" color="primary">Find Direction</button>
+
+                <div id="map"></div>
+
+            </ion-list>-->
+
+
